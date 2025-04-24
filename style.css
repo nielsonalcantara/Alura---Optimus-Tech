@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-principal: #667085;
+    --cor-secundaria: #8E2424;
+    --cor-terciaria: #101828;
+    --cor-quarta: #F9F4F4;
+}
+
+.menu__listas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu__itens a{
+    margin: 0 1.3em;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+.menu__itens-fixo a{
+    font-family: var(--fonte-principal);
+    color: white;
+    background-color: var(--cor-secundaria);
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    gap: 8px;
+}
+
+
+/*  FIM DO MENU -------------- */
+
+
+.sobre-nos {
+    margin: 96px 0;
+}
+
+.paragrafo__sobre-nos {
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+}
+
+.titulo__sobre-nos {
+    font-size: 48px;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-weight: 600;
+}
+
+.texto__sobre-nos {
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    width: 791px;
+    margin: auto;
+}
+
+/*  FIM DO PRIMEIRO BANNER ------ */
+
+.banner-dois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    margin: auto;
+    
+}
+
+.banner__itens {
+    margin: 0 1em;
+}
+
+.banner__numeros {
+    font-size: 60px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+}
+
+.banner__titulo-um {
+    color: var(--cor-terciaria);
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    
+}
+
+.banner__titulo-dois {
+    font-size: 16px;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    width: 280px;
+    height: 108px;
+    gap: 8px;
+}
+
+/*  FIM DO BANNER DOIS ---------- */
+
+.sobre-noss {
+    margin: 96px 0;
+    height: 100px;
+}
+
+.paragrafo__sobre-noss {
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    border: 1px solid #F9F4F4;
+    width: 125px;
+    margin: auto;
+    padding: 0.3em;
+    border-radius: 20px;
+    background-color: #F9F4F4;
+    
+}
+
+.titulo__sobre-noss {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-weight: 600;
+}
+
+.texto__sobre-noss {
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    text-align: center;
+}
+
+.imagem__sobre-nos {
+    width: 1216px;
+    margin: auto;
+    margin-left: 8em;
+}
+
+
+/* FIM DO MODULO ----------- */ 
+
+.secao-salarial {
+    width: 60%;
+    margin: 3em auto;
+}
+
+.secao__titulo {
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    padding: 1em;
+    margin: 2.2em 0;
+}
+
+.secao__bordas {
+    border: 1px solid rgb(237, 234, 234);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.secao__subtitulo {
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+}
+
+.secao__paragrafo {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    padding-top: 1em;
+    
+}
+
+.paragrafo-span {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    padding-top: 1em;
+    margin: 0 1.5em;
+}
+
+
+/*   FIM DO MODULO --------- */ 
+
+
+.secao__julia {
+    text-align: center;
+    background-color: var(--cor-quarta);
+    padding: 2em;
+    margin-top: 7em;
+    width: 80%;
+    margin: 5em auto;
+}
+
+.secao__paragrafo-vermelho {
+    font-size: 14px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}
+
+.secao__titulo-optimus {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    width: 1088px;
+    margin: auto;
+}
+
+.secao__imagem-julia {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+}
+
+.secao__texto-desenvolvedor {
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    font-size: 14px;
+}
+
+.secao__imagem-julia {
+    margin-top: 1.5em;
+}
+
+
+/*   FIM DO MAIN --------- */ 
+
+.rodape {
+    text-align: center;
+    background-color: #F9FAFB;
+    padding: 1em;
+    font-family: var(--fonte-principal);
+}
+
+.titulo__rodape {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.texto__rodape {
+    font-size: 20px;
+    color: var(--cor-principal);
+    margin-bottom: 1.5em;
+}
+
+.footer {
+    font-size: 14px;
+    color: var(--cor-principal);
+    margin-top: 2em;
+}
+
+.banner__rodape {
+    width: 360px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #d4d5d6;
+    padding: 0 0.7em;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.botao__rodape {
+    background-color: var(--cor-secundaria);
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    border: 1px solid var(--cor-secundaria);
+    margin: 0 0.5em;
+}
+
+.botao__rodape a {
+    font-family: var(--fonte-principal);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
